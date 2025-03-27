@@ -1,0 +1,16 @@
+.lang-switcher {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.lang-switcher li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
+    opacity: .75;
+    color: var(--bs-body-color);
+}
+.lang-switcher li.active a {
+    font-weight: 600;
+    opacity: 1;
+}
